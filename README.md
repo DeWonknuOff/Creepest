@@ -8,6 +8,7 @@ Become stronger with your enemies, Making strong Elemental Rituals and unlock th
 * [Modrinth]()
 * [Smithed]()
 * [Wiki](https://github.com/DeWonknuOff/Creepest/wiki)
+* [Planet Minecraft](https://www.planetminecraft.com/data-pack/creepest/)
 
 ## 💎 Additional 💎
 
@@ -27,7 +28,8 @@ VisiVersa - [Smithed Common Shaders, Nucleus, Miscelaneous Code, Inspiration and
 TheNuclearNexus & co. - [Various Smithed Libraries](https://smithed.dev/smithed)<br/>
 CloudWolf - [Custom Action Bars](https://www.youtube.com/watch?v=EL2X6ppZSCQ)<br/>
 AmberWat - [Negative Space Font](https://github.com/AmberWat/NegativeSpaceFont)<br/>
-ShockMicro - [Emissive Textures](https://github.com/ShockMicro/VanillaDynamicEmissives)
+ShockMicro - [Emissive Textures](https://github.com/ShockMicro/VanillaDynamicEmissives)<br/>
+Dizzistitch - [Easy Natural Custom Mob Spawn](https://discord.gg/GMfTGTSucD)<br/>
 
 </details>
 <details>
