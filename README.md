@@ -24,7 +24,7 @@ Gmcgarr - Emotional Support (lol)<br/>
 
 __Libraries & Extra:__<br>
 VisiVersa - [Smithed Common Shaders, Nucleus, Miscelaneous Code, Inspiration and README.md things](https://github.com/VisiVersa)<br/>
-TheNuclearNexus & co. - [Various Smithed Libraries](https://smithed.dev/libraries)<br/>
+TheNuclearNexus & co. - [Various Smithed Libraries](https://smithed.dev/smithed)<br/>
 CloudWolf - [Custom Action Bars](https://www.youtube.com/watch?v=EL2X6ppZSCQ)<br/>
 AmberWat - [Negative Space Font](https://github.com/AmberWat/NegativeSpaceFont)<br/>
 
@@ -56,7 +56,5 @@ You can try to mess around with the config files, but it's recommended to use Va
   * gamerules: /function creepest:commands/gamerules<br/>
   * spawning items: /loot give @s loot creepest:items/...<br/>
   * spawning mobs: /function creepest:commands/summon/...<br/>
-
-</details>
 
 </details>
