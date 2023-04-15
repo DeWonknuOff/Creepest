@@ -4,7 +4,7 @@ Become stronger with your enemies, Making strong Elemental Rituals and unlock th
 
 ## 🧷 Links 🧷
 
-* [Discord Server]()
+* [Discord Server](https://discord.gg/FAzckXTf3z)
 * [Modrinth]()
 * [Smithed]()
 * [Wiki](https://github.com/DeWonknuOff/Creepest/wiki)
@@ -56,7 +56,6 @@ You can try to mess around with the config files, but it's recommended to use Va
     💻 Commands 💻
   </summary>
 
-  * gamerules: /function creepest:commands/gamerules<br/>
   * spawning items: /loot give @s loot creepest:items/...<br/>
   * spawning mobs: /function creepest:commands/summon/...<br/>
 
