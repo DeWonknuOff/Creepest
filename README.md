@@ -2,6 +2,8 @@
 
 Become stronger with your enemies, Making strong Elemental Rituals and unlock the LOVE (Level of Violence).
 
+Creepest is a datapack that adds new (12) emeies, 
+
 ## 🧷 Links 🧷
 
 * [Discord Server](https://discord.gg/FAzckXTf3z)
