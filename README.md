@@ -2,7 +2,7 @@
 
 Become stronger with your enemies, Making strong Elemental Rituals and unlock the LOVE (Level of Violence).
 
-Creepest is a datapack that adds new (12) emeies, 
+Creepest is a datapack that adds new (12) enemies and new mechanic called Elemental Rituals
 
 ## 🧷 Links 🧷
 
