@@ -7,7 +7,7 @@ Creepest is a datapack that adds new (12) emeies,
 ## 🧷 Links 🧷
 
 * [Discord Server](https://discord.gg/FAzckXTf3z)
-* [Smithed]()
+* [Smithed](https://www.planetminecraft.com/data-pack/creepest-1-19-4/)
 * [Wiki](https://github.com/DeWonknuOff/Creepest/wiki)
 * [Planet Minecraft](https://www.planetminecraft.com/data-pack/creepest/)
 
