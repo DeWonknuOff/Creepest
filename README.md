@@ -22,7 +22,7 @@ Creepest is a datapack that adds new (12) emeies,
 __User Credits:__<br>
 DeWonknu - Main Programmer<br/>
 DeWonknu - Artist<br/>
-Maker Jr. - Brainstorming<br/>
+The Maker Cr. - Brainstorming<br/>
 Gmcgarr - Emotional Support (lol)<br/>
 
 __Libraries & Extra:__<br>
