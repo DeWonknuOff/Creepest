@@ -38,7 +38,7 @@ Dizzistitch - [Easy Natural Custom Mob Spawn](https://discord.gg/GMfTGTSucD)<br/
   </summary>
 
 __I can run Creepest with other packs?__<br/>
-Depends, with the Smithed Launcher, then it likely can, You may have to merge the resourcepack and/or datapack with weld.<br/>
+Depends, you can try merge the datapacks and resourcepacks via Mito https://mito.thenuclearnexus.live/<br/>
 
 __Im expiencing some render issues__
 Optifine tends to make issues with our datapacks, Like flipped or invisible mobs, We are not sure why, because Optifine is closed source.
