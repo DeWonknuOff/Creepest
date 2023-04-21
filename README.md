@@ -43,7 +43,7 @@ Depends, you can try merge the datapacks and resourcepacks via Mito https://mito
 __Im expiencing some render issues__
 Optifine tends to make issues with our datapacks, Like flipped or invisible mobs, We are not sure why, because Optifine is closed source.
 Theres better Alternatives to Optifine:
- * [on optifine](https://tinyurl.com/optifine-is-mid)<br/>
+ * [on optifine](https://gist.github.com/CarbonGhost/748742abff3a7386940f1c5de42afe69)<br/>
 
 __The datapack in server is broken__
 Some server or plugin software may cause issues with our datapacks. This notoriously includes Paper, Spigot, Bukkit, Paper and Purpur.
