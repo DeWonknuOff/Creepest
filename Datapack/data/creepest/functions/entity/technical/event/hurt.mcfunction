@@ -1,0 +1,2 @@
+execute if entity @s[tag=creepest.zombie_skeleton,tag=!creepest.drowned_creeper,tag=!creepest.drowned_skeleton] run playsound minecraft:entity.skeleton.hurt hostile @a ~ ~ ~
+execute if entity @s[tag=!creepest.zombie_skeleton,tag=creepest.zombie,tag=!creepest.drowned_creeper,tag=!creepest.drowned_skeleton] run playsound minecraft:entity.zombie.hurt hostile @a ~ ~ ~

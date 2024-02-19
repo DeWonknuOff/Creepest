@@ -1,0 +1,1 @@
+execute if predicate creepest:entity/holding/living_pillar anchored eyes run function creepest:item/living_pillar/raycast

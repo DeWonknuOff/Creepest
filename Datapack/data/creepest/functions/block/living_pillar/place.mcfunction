@@ -1,0 +1,21 @@
+# Spawned by player
+
+setblock ~ ~ ~ air
+execute align xyz positioned ~.5 ~.5 ~.5 if entity @s[y_rotation=-50..50] run summon wandering_trader ~ ~ ~ {HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:770050}},{}],Rotation:[180.0f,0.0f],Team:"creepest.no_hitbox",ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],HandDropChances:[-10000.0f,-10000.0f],Recipes:{},NoAI:1b,AttachFace:0b,ActiveEffects:[{Id:14,Amplifier:1b,Duration:-1,ShowParticles:0b}],NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["nucleus.entity","nucleus.trader_entity","creepest.entity","creepest.block","creepest.living_pillar","creepest.living_pillar.awaiting_item","creepest.block_core","creepest.set_id"],ArmorItems:[{},{},{},{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:770050}}]}
+execute align xyz positioned ~.5 ~.5 ~.5 if entity @s[y_rotation=51..140] run summon wandering_trader ~ ~ ~ {HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:770050}},{}],Rotation:[270.0f,0.0f],Team:"creepest.no_hitbox",ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],HandDropChances:[-10000.0f,-10000.0f],Recipes:{},NoAI:1b,AttachFace:0b,ActiveEffects:[{Id:14,Amplifier:1b,Duration:-1,ShowParticles:0b}],NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["nucleus.entity","nucleus.trader_entity","creepest.entity","creepest.block","creepest.living_pillar","creepest.living_pillar.awaiting_item","creepest.block_core","creepest.set_id"],ArmorItems:[{},{},{},{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:770050}}]}
+execute align xyz positioned ~.5 ~.5 ~.5 if entity @s[y_rotation=141..-130] run summon wandering_trader ~ ~ ~ {HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:770050}},{}],Rotation:[0.0f,0.0f],Team:"creepest.no_hitbox",ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],HandDropChances:[-10000.0f,-10000.0f],Recipes:{},NoAI:1b,AttachFace:0b,ActiveEffects:[{Id:14,Amplifier:1b,Duration:-1,ShowParticles:0b}],NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["nucleus.entity","nucleus.trader_entity","creepest.entity","creepest.block","creepest.living_pillar","creepest.living_pillar.awaiting_item","creepest.block_core","creepest.set_id"],ArmorItems:[{},{},{},{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:770050}}]}
+execute align xyz positioned ~.5 ~.5 ~.5 if entity @s[y_rotation=-129..-51] run summon wandering_trader ~ ~ ~ {HandItems:[{id:"minecraft:structure_block",Count:1b,tag:{CustomModelData:770050}},{}],Rotation:[90.0f,0.0f],Team:"creepest.no_hitbox",ArmorDropChances:[0.085F,0.085F,0.085F,-327.670F],HandDropChances:[-10000.0f,-10000.0f],Recipes:{},NoAI:1b,AttachFace:0b,ActiveEffects:[{Id:14,Amplifier:1b,Duration:-1,ShowParticles:0b}],NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["nucleus.entity","nucleus.trader_entity","creepest.entity","creepest.block","creepest.living_pillar","creepest.living_pillar.awaiting_item","creepest.block_core","creepest.set_id"],ArmorItems:[{},{},{},{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:770050}}]}
+execute align xyz positioned ~.5 ~ ~.5 run summon shulker ~ ~ ~ {DeathTime:19,AttachFace:0b,ActiveEffects:[{Id:14,Amplifier:1b,Duration:-1,ShowParticles:0b}],Health:2f,AttachFace:0b,Attributes:[{Name:generic.max_health,Base:2}],NoGravity:1b,Silent:1b,DeathLootTable:"minecraft:empty",NoAI:1b,AttachFace:0b,Tags:["nucleus.entity","creepest_entity","creepest.block","creepest.living_pillar","creepest.block_hitbox","creepest.set_id"]}
+
+scoreboard players add #global creepest.entity_id 1
+
+execute as @e[tag=creepest.set_id,limit=2,sort=nearest] run scoreboard players operation @s creepest.entity_id = #global creepest.entity_id
+
+tag @e[tag=creepest.set_id,limit=2,sort=nearest] remove creepest.set_id
+
+# Clear Items
+
+item replace entity @s[gamemode=!creative,nbt={Inventory:[{Slot:-106b,tag:{creepest:{id:"living_pillar"}}}]},nbt=!{SelectedItem:{tag:{creepest:{id:"living_pillar"}}}}] weapon.offhand with air
+item replace entity @s[gamemode=!creative,nbt={SelectedItem:{tag:{creepest:{id:"living_pillar"}}}}] weapon.mainhand with air
+
+playsound minecraft:block.stone.place ambient @a ~ ~ ~ 1 0

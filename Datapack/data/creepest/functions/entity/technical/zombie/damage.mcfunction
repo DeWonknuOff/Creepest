@@ -1,0 +1,5 @@
+execute anchored eyes positioned ^ ^ ^1 positioned ~ ~-1 ~ as @a[gamemode=!creative,gamemode=!spectator,distance=..2.25] run damage @s 2 minecraft:generic by @e[type=minecraft:wandering_trader,limit=1,sort=nearest]
+execute anchored eyes positioned ^ ^ ^1 positioned ~ ~-1 ~ if entity @s[tag=creepest.crimson_zombie] at @a[gamemode=!creative,gamemode=!spectator,distance=..2.25] run particle minecraft:crimson_spore ~ ~1 ~ 0.1 0.1 0.1 0.1 500
+execute anchored eyes positioned ^ ^ ^1 positioned ~ ~-1 ~ if entity @s[tag=creepest.warped_skeleton] at @a[gamemode=!creative,gamemode=!spectator,distance=..2.25] run particle minecraft:warped_spore ~ ~1 ~ 0.1 0.1 0.1 0.1 500
+execute anchored eyes positioned ^ ^ ^1 positioned ~ ~-1 ~ if entity @s[tag=creepest.crimson_zombie] as @a[gamemode=!creative,gamemode=!spectator,distance=..2.25] run effect give @s poison 5 0
+execute anchored eyes positioned ^ ^ ^1 positioned ~ ~-1 ~ if entity @s[tag=creepest.warped_skeleton] as @a[gamemode=!creative,gamemode=!spectator,distance=..2.25] run effect give @s poison 4 1

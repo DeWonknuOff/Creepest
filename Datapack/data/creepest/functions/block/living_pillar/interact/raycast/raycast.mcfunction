@@ -1,0 +1,2 @@
+execute positioned ~-0.01 ~-0.99 ~-0.01 as @e[tag=creepest.block,tag=creepest.block_core,dx=0] positioned ~-0.99 ~0.99 ~-0.99 if entity @s[dx=0] at @s run function creepest:block/living_pillar/interact/raycast/as_entity
+execute if entity @s[distance=..5] unless data storage creepest:storage root.temp{sucess:1b} positioned ^ ^ ^0.01 run function creepest:block/living_pillar/interact/raycast/raycast

@@ -1,0 +1,2 @@
+execute unless block ^ ^ ^0.01 #nucleus:raycast_ignore align xyz positioned ~.5 ~ ~.5 unless entity @e[distance=..0.5,tag=creepest.block] run function creepest:block/living_pillar/place
+execute if entity @s[distance=..5] if block ^ ^ ^0.01 #nucleus:raycast_ignore positioned ^ ^ ^0.01 run function creepest:item/living_pillar/raycast

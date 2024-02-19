@@ -1,0 +1,1 @@
+execute positioned ^ ^-1 ^3 if block ~ ~ ~ diamond_block positioned ~ ~1 ~ unless entity @e[tag=creepest.ritual_core,distance=..0.5] run function creepest:entity/ritual_core/summon

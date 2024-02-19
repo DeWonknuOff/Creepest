@@ -1,0 +1,45 @@
+data/load/functions/_private/init.mcfunction:
+ - datapacks
+ - xd
+data/load/tags/functions/_private/init.json:
+ - datapacks
+ - xd
+data/load/tags/functions/_private/load.json:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/functions/v0.1.2/technical/10_tick.mcfunction:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/functions/v0.1.2/technical/load.mcfunction:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/functions/v0.1.2/technical/load/enumerate/major.mcfunction:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/functions/v0.1.2/technical/load/enumerate/minor.mcfunction:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/functions/v0.1.2/technical/load/enumerate/patch.mcfunction:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/functions/v0.1.2/technical/load/enumerate/set_version.mcfunction:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/functions/v0.1.2/technical/load/enumerate.mcfunction:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/functions/v0.1.2/technical/load/resolve.mcfunction:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/tags/entity_types/mobs.json:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/tags/functions/load/enumerate.json:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/tags/functions/load/resolve.json:
+ - datapacks
+ - xd
+data/smithed.prevent_aggression/tags/functions/load.json:
+ - datapacks
+ - xd

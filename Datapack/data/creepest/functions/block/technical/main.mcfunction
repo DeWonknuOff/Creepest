@@ -1,0 +1,1 @@
+execute if entity @s[tag=creepest.living_pillar,tag=creepest.block_core] run function creepest:block/living_pillar/tick

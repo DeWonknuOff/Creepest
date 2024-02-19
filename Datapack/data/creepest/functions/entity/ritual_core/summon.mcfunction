@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,Tags:["creepest.entity","creepest.ritual_core"],data:{creepest:{id:"ritual"}}}
